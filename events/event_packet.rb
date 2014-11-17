@@ -1,6 +1,5 @@
 require 'json'
 
-# Understands solutions to a need for a rental car offer
 class EventPacket 
   def initialize(event_type=nil, event=nil)
     @event_type, @event = event_type, event
